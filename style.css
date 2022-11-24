@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 800px;
+    height: 780px;
     background-image: linear-gradient(#dae1f7, #b09398);
     -webkit-background-image: linear-gradient(#dae1f7, #b09398);
 }
@@ -13,7 +13,7 @@ body {
 section {
     background-color: #fbfbfb;
     width: 280px;
-    height: 85%;
+    height: 600px;
     margin: 30px auto;
     box-shadow:  1px 1px 3px #c1a4a9,
                 -1px -1px 3px #c1a4a9; 
