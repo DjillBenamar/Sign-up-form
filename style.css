@@ -1,13 +1,14 @@
 *{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    
+    -moz-box-sizing: border-box;
 }
 
 body {
     height: 660px;
     background-image: linear-gradient(#dae1f7, #b09398);
     -webkit-background-image: linear-gradient(#dae1f7, #b09398);
+    -moz-background-image: linear-gradient(#dae1f7, #b09398);
 }
 
 section {
@@ -18,8 +19,7 @@ section {
     box-shadow:  1px 1px 3px #c1a4a9,
                 -1px -1px 3px #c1a4a9; 
     padding-top: 8px;
-    border-radius: 5px;            
-
+    border-radius: 5px;
 }
 
 img {
@@ -69,6 +69,7 @@ form input:not(.sent) {
     width: 100%;
     background-image: linear-gradient(to right, #ac3963, #ff8cb6);
     -webkit-background-image: linear-gradient(to right, #ac3963, #ff8cb6);
+    -moz-background-image: linear-gradient(to right, #ac3963, #ff8cb6);
     padding: 15px 35px;
     border-radius: 20px;
     margin-top: 20px;
@@ -76,5 +77,5 @@ form input:not(.sent) {
     color: #f6dfe8;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
 }
-
