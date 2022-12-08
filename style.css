@@ -14,7 +14,7 @@ body {
 section {
     background-color: #fbfbfb;
     width: 280px;
-    height: 600px;
+    height: auto;
     margin: 30px auto;
     box-shadow:  1px 1px 3px #c1a4a9,
                 -1px -1px 3px #c1a4a9; 
